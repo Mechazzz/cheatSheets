@@ -1,4 +1,4 @@
-TERMINAL:
+TERMINAL: ----------------------------------------
 cd 
 change directory
 
@@ -25,7 +25,7 @@ print working directory
 ls -Force 
 kilistaz minden fajlt, a rejtetteket is (macen : ls -A)
 
-GIT:
+GIT: --------------------------------------------------------
 
 git status 
 kiirja a verziokovetest vagy annak hianyat (nem változtat meg semmit)
@@ -41,6 +41,13 @@ Ha nem akarjuk mar verziokovetni akkor csak torolni kell a git mappat
 
 git log
 kiirja a committokat (verziokat), kiirja a valtozasokat és látom a metaadatokat (nem változtat meg semmit)
+
+git add .
+hozzáadja a filet a snapshothoz , commithez
+
+ git commit -m ""  (idozojelbe szoveget irhatok)
+ elkészitette az elso snapshotot, commitot ezzel a nevet
+
 
 
 
