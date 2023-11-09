@@ -78,3 +78,24 @@ Atraktam hogy az alap ne master legyen a kovi repoknal hanem main talan ennel a 
 git removet -v
 kilogolja hogy van-e remote repository
 
+Ha valamit fel akarok pusholni sorrend:
+git add .
+git commit -m "git config update"
+git push
+
+git clone https://github.com/pavaberna/cheatsheets.git BernichetSheets
+leklonozom mas git repojat  es ua link utan megadom a mappanevet amit letrehozok amibe belerakja
+
+git-ben hozzáférést adni másnak : settings --> felül bal felső sarok collaborators --> add people és hozzádahatok embereket akik tudnak ebbe a repóba pusholni
+
+git loggal menyitom a logjat a masik embernek, utana q-val tudok kimenni terminalbol
+
+Lecsekkolni a githubomon levo dolgot : git log parancs
+
+Ha mas modosit a fajlomban és megprobalok rapusholni akkor errort fogok kapni mert azt az üzenetet kapom hogy mar elorebb van a verzio és más már irt bele
+
+git pull
+Lehúzom az aktuális fájlt a repo-bol
+A git belerakott ilyet hogy head meg --- meg egyéb karaktereket, a git ezáltal jelzi hogy ott probléma van
+VS codeban szürkével otttvannak a szinek felett kattinthato opciók az is lehet, DE csak siman kitorlom az összes jelet amit berakott a Git és szabadon átirhatom mit akarok megtartani vagy mit nem és oda irom / törlöm stb
+
