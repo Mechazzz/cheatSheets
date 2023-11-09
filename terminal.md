@@ -62,5 +62,19 @@ Kesobb branchek kozott valtunk
 
 A PROJEKTBEN A CHECKOUT ES SWITCH KÖZÖTT NE CSINALJUNK SEMMIT A FÁJL_AL SEMMIT MERT NAGYON MACERÁS LESZ UTÁNA.
 
+git remote -v
+csekkolom hogy tartozik-e hozza remote repository
 
+git remote add origin https://github.com/Mechazzz/cheatSheets.git
+itt megadom a githubon csinalt repository elereset hogy tudja hova toltse fel az adatokat
+
+git branch -M main
+ez csak atnevezi githubon a master branchet main branchra
+
+git push --set-upstream origin master (itt talan main a master helyett)
+Ezzel felpusholodik a master branchba
+Atraktam hogy az alap ne master legyen a kovi repoknal hanem main talan ennel a push parancsnal is atkene rakni mainre ?
+
+git removet -v
+kilogolja hogy van-e remote repository
 
