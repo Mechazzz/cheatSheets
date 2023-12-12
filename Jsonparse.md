@@ -30,5 +30,3 @@ import fileSystem from "fs";
 
 const data = fileSystem.readFileSync(`${__dirname}/../data.txt`, "utf-8"); VAGY : const data = fileSystem.readFileSync(két alulvonásdirname + "/../data.txt", "utf-8")
 let newDates = JSON.parse(data);
-
-
